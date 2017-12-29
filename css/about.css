@@ -582,7 +582,7 @@ float:left;
   color: #e37162 !important;
 }
 .hamburger{
-  font-size: 35pt; top: -15px; position: relative;
+  font-size: 35pt !important; top: -15px; position: relative;
 }
 
 html, body, div, span, applet, object, iframe,
