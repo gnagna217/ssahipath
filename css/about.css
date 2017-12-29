@@ -441,6 +441,7 @@ li{
     width: 30% !important;
     cursor: pointer;
     padding-bottom: 1%;
+        float: left;
 }
 .corevalues:hover{
   background-color: #a79655;
@@ -579,6 +580,9 @@ float:left;
 }
 .menubutton:hover, .hamburger:hover{
   color: #e37162 !important;
+}
+.hamburger{
+  font-size: 35pt; top: -15px; position: relative;
 }
 
 html, body, div, span, applet, object, iframe,
