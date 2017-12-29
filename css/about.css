@@ -13,6 +13,9 @@
   font-style: normal;
 }
 
+.bg-home{
+  background-image: url(../images/ssa_hope.jpeg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
 
 .headerbackground{
   background: #887b425e;
@@ -218,6 +221,15 @@
 
   .increasehomehero{padding: 240px 0 130px !important;}
 }
+
+@media (max-width: 440px) {
+.bg-home{
+  background-image: url(../images/ssa_hope3.png) !important;}
+}
+}
+
+
+
 .at-user {
   position: absolute;
   top: 50%;
