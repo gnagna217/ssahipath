@@ -13,6 +13,14 @@
   font-style: normal;
 }
 
+.eqheight{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
 .bg-home{
   background-image: url(../images/ssa_hope.jpeg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
