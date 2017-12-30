@@ -222,15 +222,7 @@
   .increasehomehero{padding: 240px 0 130px !important;}
 }
 
-@media (max-width: 440px) {
-.bg-home{
-  background-image: url(../images/ssa_hope_mobile.png) !important;}
 
-#section-home-heading .btn-default {
-    margin-top: 25px !important;
-}
-
-}
 
 
 
@@ -471,43 +463,46 @@ li{
   opacity: 1;
 }
 .bubble{
-  border-style: solid;
+    border-style: solid;
     border-width: medium;
     border-radius: 500px;
-    padding: 20px;
+    padding: 5%;
     overflow-wrap: break-word;
     border-color: #5d542f;
-    margin: 1%;
-    width: 31.333% !important;
-    font-size:14px;
+    margin: 0.5%;
+    width: 32.333% !important;
+    font-size: 14px;
     background: #352f2f94;
-    float:left;
+    float: left;
+    border:none;
 }
 .bubble1{
   border-style: solid;
     border-width: medium;
     border-radius: 500px;
-    padding: 20px;
+    padding: 5%;
     overflow-wrap: break-word;
     border-color: #5d542f;
-    margin: 1%;
-    width: 48% !important;
+    margin: 0.5%;
+    width: 49% !important;
     font-size:14px;
     background: #352f2f94;
 float:left;
+border: none;
 }
 .bubble2{
   border-style: solid;
     border-width: medium;
     border-radius: 500px;
-    padding: 20px;
+    padding: 5%;
     overflow-wrap: break-word;
     border-color: #5d542f;
-    margin: 1%;
+    margin: 0.5%;
     width: 100% !important;
     font-size:14px;
     background: #352f2f94;
 float:left;
+border: none;
 }
 .menuactive{
     color: #e37162 !important;
@@ -11392,4 +11387,15 @@ p.white {
   z-index: 20;
 }
 
+@media (max-width: 440px) {
+.bg-home{
+  background-image: url(../images/ssa_hope_mobile.png) !important;}
 
+#section-home-heading .btn-default {
+    margin-top: 25px !important;
+}
+.advocate-col4 , .advocate-col5 {
+font-size: 12px !important;
+  }
+
+}
