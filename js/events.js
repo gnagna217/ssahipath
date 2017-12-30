@@ -78,16 +78,24 @@
             $body.toggleClass('open');
         });
 
-      var eSelect = document.getElementById('selectservice');
-      if(eSelect != null && eSelect != undefined){
-      eSelect.onchange = function() {
+        $("section").click(function() {
+        if($("body").hasClass("open")){
+        hamburger.classList.toggle("fa-navicon");
+        hamburger.classList.toggle("fa-times");
+        $("body").toggleClass("open");
+        }
+        });
+
+        var eSelect = document.getElementById('selectservice');
+        if(eSelect != null && eSelect != undefined){
+        eSelect.onchange = function() {
         var val = $(this).val();
         if(val != "service"){
-          console.log("here: " + val);
-          window.open(val, "_self");
+        console.log("here: " + val);
+        window.open(val, "_self");
         }
-    }
-      };
+        }
+        };
         /* Page Header Background
          *******************************************/
 
