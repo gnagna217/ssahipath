@@ -227,7 +227,7 @@
   background-image: url(../images/ssa_hope_mobile.png) !important;}
 
 #section-home-heading .btn-default {
-    margin-top: 25px;
+    margin-top: 25px !important;
 }
 
 }
