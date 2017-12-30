@@ -74,7 +74,7 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: #ccc3b4; 
+    background: #ffab13e0; 
 }
 .at-column:hover{
     background: #c1ad57;
