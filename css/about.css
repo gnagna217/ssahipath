@@ -479,7 +479,7 @@ li{
     border-color: #5d542f;
     margin: 1%;
     width: 31.333% !important;
-    font-size:12px;
+    font-size:14px;
     background: #352f2f94;
     float:left;
 }
@@ -492,7 +492,7 @@ li{
     border-color: #5d542f;
     margin: 1%;
     width: 48% !important;
-    font-size:12px;
+    font-size:14px;
     background: #352f2f94;
 float:left;
 }
@@ -505,7 +505,7 @@ float:left;
     border-color: #5d542f;
     margin: 1%;
     width: 100% !important;
-    font-size:12px;
+    font-size:14px;
     background: #352f2f94;
 float:left;
 }
@@ -7899,7 +7899,7 @@ button.close {
 }
 
 .header.small .subheader {
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 20px;
       overflow-wrap: break-word;
   word-wrap: break-word;
