@@ -17,8 +17,8 @@
     font-size: 45pt;
     color: #d9b733;
 }
-.tel:active, .tel:hover, .tel:focus {
-    color: #685e32;
+.telcontainer:active, .telcontainer:hover, .telcontainer:focus {
+    color: #685e32 !important;
 }
 .eqheight{
   display: -webkit-box;
