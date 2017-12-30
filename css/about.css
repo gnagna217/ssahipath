@@ -227,9 +227,8 @@
   .increasehomehero{padding: 240px 0 130px !important;}
 
   .eqheight{
-  display: -webkit-box;
-  display: block;
-  margin-bottom: 0;
+  /*display: block;*/
+  margin-bottom: -10px;
 }
 }
 
