@@ -228,6 +228,12 @@
   }
 
   .increasehomehero{padding: 240px 0 130px !important;}
+
+  .eqheight{
+  display: -webkit-box;
+  display: block;
+  margin-bottom: 0;
+}
 }
 
 
@@ -1727,8 +1733,8 @@ pre code {
 
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  /*margin-left: -15px;
+  margin-right: -15px;*/
       overflow-wrap: break-word;
 }
 
