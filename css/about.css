@@ -476,7 +476,7 @@ li{
   opacity: 1;
 }
 .colorwhite:hover, .colorwhite:focus, .colorwhite:active{
-  color: #e37162;
+  color: #e37162 !important;
 }
 .bubble{
     border-style: solid;
