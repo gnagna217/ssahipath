@@ -475,6 +475,9 @@ li{
   color: white;
   opacity: 1;
 }
+.colorwhite:hover, .colorwhite:focus, .colorwhite:active{
+  color: #e37162;
+}
 .bubble{
     border-style: solid;
     border-width: medium;
@@ -9512,7 +9515,7 @@ a:hover, a:focus, a:active {
 }
 
 .no-touch a:hover, .no-touch a:active, .no-touch a:focus {
-  color: #e37162 !important;
+  color: #e37162;
 }
 
 a.underline:hover, a.underline:focus, a.underline:active {
