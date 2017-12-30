@@ -9504,7 +9504,7 @@ a:hover, a:focus, a:active {
 }
 
 .no-touch a:hover, .no-touch a:focus , .no-touch a:active {
-  color: #e37162;
+  color: #e37162 !important;
 }
 
 a.underline:hover, a.underline:focus, a.underline:active {
