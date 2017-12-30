@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+.tel{
+    font-size: 45pt;
+    color: #d9b733;
+}
+.tel:active, .tel:hover, .tel:focus {
+    color: #685e32;
+}
 .eqheight{
   display: -webkit-box;
   margin-bottom: 25px;
