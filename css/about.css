@@ -13,6 +13,17 @@
   font-style: normal;
 }
 
+@media (max-width: 992px) {
+
+.opaqueback {
+    width: 100% !important;
+}
+  .eqheight{
+  display: block;
+  margin-bottom: -10px;
+}
+}
+
 .subtitle{
   top: -125px !important;
 }
@@ -210,16 +221,7 @@
   margin: 16px 0 0;
   opacity: 1;
 }
-@media (max-width: 992px) {
 
-.opaqueback {
-    width: 100% !important;
-}
-  .eqheight{
-  display: block;
-  margin-bottom: -10px;
-}
-}
 @media (max-width: 800px) {
   .at-column {
     width: 50% !important;
@@ -402,7 +404,7 @@
   text-align: left;
 }
 .opaqueback{
-  margin-left:0.25%;margin-right:0.25%;background: #352f2f94;width: 31.333%;padding: 10px;
+  margin-left:0.25%;margin-right:0.25%;background: #352f2f94;width: 31.333% !important;padding: 10px;
 }
 
 .form-control_{
