@@ -86,12 +86,19 @@
         }
         });
 
+        var hamburger = document.querySelector(".hamburger");
+        if(hamburger != undefined && hamburger != null){
+        hamburger.addEventListener("click", function() {
+          hamburger.classList.toggle("fa-navicon");
+          hamburger.classList.toggle("fa-times");
+        });
+        }
+
         var eSelect = document.getElementById('selectservice');
         if(eSelect != null && eSelect != undefined){
         eSelect.onchange = function() {
         var val = $(this).val();
         if(val != "service"){
-        console.log("here: " + val);
         window.open(val, "_self");
         }
         }
