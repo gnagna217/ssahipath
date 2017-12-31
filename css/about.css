@@ -212,6 +212,9 @@
 }
 @media (max-width: 992px) {
 
+.opaqueback {
+    width: 100% !important;
+}
   .eqheight{
   display: block;
   margin-bottom: -10px;
