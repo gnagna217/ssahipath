@@ -3138,6 +3138,9 @@ table th[class*="col-"] {
 }
 }
 @media screen and (max-width: 440px) {
+  .titlecontinue{
+    font-size:20pt;
+  }
     .corefont{
   font-size: 12px !important;
       /*padding-top: 38% !important;*/
