@@ -11422,7 +11422,7 @@ p.white {
 
 @media (max-width: 440px) {
 .subtitle{
-  top: -140px !important;
+  top: -170px !important;
 }
 .bg-home{
   background-image: url(../images/ssa_hope_mobile.png) !important;}
