@@ -402,7 +402,7 @@
   text-align: left;
 }
 .opaqueback{
-  margin-left:0.25%;margin-right:0.25%;background: #352f2f94;width: 31.333% !important;
+  margin-left:0.25%;margin-right:0.25%;background: #352f2f94;width: 31.333%;padding: 10px;
 }
 
 .form-control_{
