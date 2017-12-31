@@ -103,6 +103,78 @@
         }
         }
         };
+
+        /* Team*/
+        $(".corevision").click(function() {
+        $( "#corevision" ).toggle();
+        $( "#coregoals" ).hide();
+        $( "#corevals" ).hide();
+        $( ".corevision" ).toggleClass("corevaluesactive");
+        $( ".coregoals" ).removeClass("corevaluesactive");
+        $( ".corevals" ).removeClass("corevaluesactive");
+        $(window).scrollTop($('#corevision').offset().top - 300).scrollLeft($('#corevision').offset().left);
+      });
+      $(".coregoals").click(function() {
+        $( "#coregoals" ).toggle();
+        $( "#corevision" ).hide();
+        $( "#corevals" ).hide();
+        $( ".corevision" ).removeClass("corevaluesactive");
+        $( ".coregoals" ).toggleClass("corevaluesactive");
+        $( ".corevals" ).removeClass("corevaluesactive");
+        $(window).scrollTop($('#coregoals').offset().top - 300).scrollLeft($('#coregoals').offset().left);
+      });
+      $(".corevals").click(function() {
+        $( "#corevals" ).toggle();
+        $( "#coregoals" ).hide();
+        $( "#corevision" ).hide();
+        $( ".corevision" ).removeClass("corevaluesactive");
+        $( ".coregoals" ).removeClass("corevaluesactive");
+        $( ".corevals" ).toggleClass("corevaluesactive");
+        $(window).scrollTop($('#corevals').offset().top - 300).scrollLeft($('#corevals').offset().left);
+      });
+
+      $( ".at-column" ).mouseleave(function() {
+        //console.log("mouseout");
+        $(this).find(".at-social").hide();
+        $(this).find(".at-user__title").css('color','initial');
+
+        $(this).find(".at-user").css('background-color','initial');
+        $(this).find(".at-user__title").hide();
+          $(this).find(".at-user__name").hide();
+      });
+
+  
+        function hasTouch() {
+            return 'ontouchstart' in document.documentElement
+                   || navigator.maxTouchPoints > 0
+                   || navigator.msMaxTouchPoints > 0;
+        }
+        if(!hasTouch()){
+          //console.log("no touch");
+          $(".at-column").hover(function() {
+            //console.log("hovered column");
+              $(this).find(".at-social").show();
+              $(this).find(".at-user__title").show();
+              $(this).find(".at-user__name").show();
+              $(this).find(".at-user__title").css('color','white');
+              $(this).find(".at-user").css('background-color','#c1ad57');
+            }, function() {
+                  //$(this).css('background', ceColorOri);
+                  //$(this).css('border-color', "white");
+            });
+        }
+
+        $( ".at-column" ).click(function() {
+        //console.log("clicked");
+        var html = $(this).find(".at-social").html();
+        var img = $(this).find(".at-user__avatar").html();
+        var title = "<h2 style='text-align:center'>" + $(this).find(".at-user__name").html() + "</h2><br/>";
+        //console.log("html: " + html);
+        $(".showText").html("<div class='at-user__avatar at-user__avatarText'>" + img + "</div>" + title + html);
+        $(".showText").show();
+        $(window).scrollTop($('.showText').offset().top - 300).scrollLeft($('.showText').offset().left);
+        });
+
         /* Page Header Background
          *******************************************/
 
