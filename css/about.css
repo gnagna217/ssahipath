@@ -561,6 +561,14 @@ border: none;
   animation-duration: 0.5s !important;
   animation-delay: 0.2s;
 }
+.titlecontinuehome{
+  -moz-animation-duration: 0.5s;
+  -moz-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-duration: 0.5s !important;
+  animation-delay: 0.2s;
+}
 .focusheader{
   color: white; background: #6a5f32cc; padding: 25px; font-size: 20px; top: -43px; position: relative;margin-bottom: 0px;
 }
@@ -3140,6 +3148,9 @@ table th[class*="col-"] {
 @media screen and (max-width: 440px) {
   .titlecontinue{
     font-size:20pt;
+  }
+    .titlecontinuehome{
+    font-size:25pt;
   }
     .corefont{
   font-size: 12px !important;
