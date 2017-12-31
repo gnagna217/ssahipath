@@ -13,6 +13,9 @@
   font-style: normal;
 }
 
+.subtitle{
+  top: -125px !important;
+}
 .tel{
     font-size: 45pt !important;
     color: #d9b733;
@@ -11411,11 +11414,14 @@ p.white {
 }
 
 @media (max-width: 440px) {
+.subtitle{
+  top: -140px !important;
+}
 .bg-home{
   background-image: url(../images/ssa_hope_mobile.png) !important;}
 
 #section-home-heading .btn-default {
-    margin-top: 25px !important;
+    margin-top: 20px !important;
 }
 .advocate-col4 , .advocate-col5 {
 font-size: 12px !important;
