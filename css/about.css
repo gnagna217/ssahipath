@@ -9059,7 +9059,7 @@ font-size: 12px !important;
 }
 
 .return{
-  float: right;color: #c5a833;font-size: 20pt;
+  float: right;color: #c5a833;font-size: 20pt !important;
 }
 
 .return:hover,.return:focus,.return:active{
