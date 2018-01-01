@@ -431,7 +431,7 @@ position: relative;
 .align-left{
 text-align: left;
 }
-.service-subtext subheader {
+.service-subtext {
 font-size: 12px !important;text-transform: none; margin-top:15px;
 }
 .servicetext{
@@ -9042,7 +9042,7 @@ font-size: 12px !important;
 }
 }
 
-.service-subtext subheader :before {
+.service-subtext :before {
     content: none;
     display: initial;
     width: 0px;
