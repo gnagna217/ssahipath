@@ -9042,7 +9042,7 @@ font-size: 12px !important;
 }
 }
 
-.service-subtext :before {
+.service-subtext:before {
     content: none;
     display: initial;
     width: 0px;
