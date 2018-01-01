@@ -431,7 +431,7 @@ position: relative;
 .align-left{
 text-align: left;
 }
-.service-subtext{
+.service-subtext subheader {
 font-size: 12px !important;text-transform: none; margin-top:15px;
 }
 .servicetext{
@@ -9040,4 +9040,12 @@ margin-top: 20px !important;
 .advocate-col4 , .advocate-col5 {
 font-size: 12px !important;
 }
+}
+
+.service-subtext subheader :before {
+    content: none;
+    display: initial;
+    width: 0px;
+    margin: 0 auto;
+    border-bottom: none !important;
 }
