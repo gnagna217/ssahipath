@@ -434,6 +434,7 @@ text-align: left;
 .service-subtext {
 text-transform: none; margin-top:15px;
     margin-top: 0px !important;
+        padding-bottom: 10px !important;
 }
 .servicetext{
 font-size: 15px !important;text-align:left;margin:5% 21%;
