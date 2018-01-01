@@ -6296,7 +6296,7 @@ color: #FFF;
 border-color: #897c42;
 color: #FFF;
 }
-.no-touch .btn.btn-border.secondary:hover {
+.no-touch .btn.btn-border.secondary:hover, .no-touch .btn.btn-border.secondary:focus, .no-touch .btn.btn-border.secondary:active{
 background: #897c42;
 color: #FFF;
 }
