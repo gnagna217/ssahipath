@@ -39,15 +39,13 @@ width: 100% !important;
 /*Start Team*/
 .showText{
 display:none;
-margin-top: 25px;
-margin-left: -20px;
-margin-right: -20px;
 background-color: rgba(98, 89, 50, 0.44);
 padding: 20px;
 text-align: left;
 width: 55%;
 margin: 0 auto;
 font-size: 13px;
+margin-top: 25px;
 }
 .at-user__avatarText{
 width: 98px;

@@ -142,7 +142,7 @@
         var img = $(this).find(".at-user__avatar").html();
         var title = "<h2 style='text-align:center'>" + $(this).find(".at-user__name").html() + "</h2><br/>";
         //console.log("html: " + html);
-        $(".showText").html("<div class='at-user__avatar at-user__avatarText'>" + img + "</div>" + title + html);
+        $(".showText").html("<div class='at-user__avatar at-user__avatarText'>" + img + "<a href='#anatomicservices'><span class='fa fa-chevron-up return' title='back up'></span></a></div>" + title + html);
         $(".showText").show();
         $(window).scrollTop($('.showText').offset().top - 300).scrollLeft($('.showText').offset().left);
         });
