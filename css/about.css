@@ -9051,3 +9051,8 @@ font-size: 12px !important;
     border-bottom: none !important;
     margin-bottom: 10px !important;
 }
+
+.fa-check-square-o:before {
+    content: "\f046";
+    margin-right: 5px;
+}
