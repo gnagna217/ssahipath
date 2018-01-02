@@ -42,7 +42,7 @@ $(function() {
   });
 
 
-  $("form[name='volunteer']").validate({
+/*  $("form[name='volunteer']").validate({
     rules: {
       fname: "required",
       lname: "required",
@@ -80,7 +80,7 @@ $(function() {
           volunteernow: "required",
           address: "required",
           city: "required",
-          country: "required"
+          country : "required"
     },
     messages: {
       fname: "Please enter your first name",
@@ -101,6 +101,6 @@ $(function() {
     submitHandler: function(form) {
       form.submit();
     }
-  });
+  });*/
 
 });
