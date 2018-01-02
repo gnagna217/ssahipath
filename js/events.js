@@ -323,6 +323,7 @@
 })(jQuery);
 
       function ValidatePassKey(tb) {
+            console.debug(tb);
           if (tb.TextLength >= 3){
             document.getElementById(tb.id + 1).focus();
           }
