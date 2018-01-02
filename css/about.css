@@ -9066,3 +9066,21 @@ font-size: 12px !important;
 .return:hover,.return:focus,.return:active{
 color: #fdce13;
 }
+
+/* This is the style of our error messages */
+.error {
+  width  : 100%;
+  padding: 10px;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  position: inherit;
+}
+
+.error.active {
+  padding: 0.3em;
+}
