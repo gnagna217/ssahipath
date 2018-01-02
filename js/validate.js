@@ -37,10 +37,32 @@ $(function() {
       email: "Please enter a valid email address"
     },
     submitHandler: function(form) {
-      form.submit();
+      //form.submit();
+      postForm();
     }
   });
 
+  function postForm() {
+    var ajaxRequest;
+    $("#result").html('');
+    var values = $("#contactus").serialize()
+    ajaxRequest= $.ajax({
+            url: "./jqueryreal/jquery.realperson.php",
+            type: "post",
+            data: values
+        });
+
+     ajaxRequest.done(function (response, textStatus, jqXHR){
+          // show successfully for submit message
+          $("#result").html(response);
+     });
+
+     /* On failure of request this function will be called  */
+     ajaxRequest.fail(function (){
+       // show error
+       $("#result").html('There was an error in processing the request. Please try again.');
+     });
+  }
 
   $("form[name='volunteer']").validate({
     rules: {
