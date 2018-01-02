@@ -115,12 +115,6 @@
           $(this).find(".at-user__name").hide();
       });
 
-      function ValidatePassKey(tb) {
-          if (tb.TextLength >= 3){
-            document.getElementById(tb.id + 1).focus();
-          }
-        }
-
   
         function hasTouch() {
             return 'ontouchstart' in document.documentElement
@@ -327,3 +321,9 @@
 
     });
 })(jQuery);
+
+      function ValidatePassKey(tb) {
+          if (tb.TextLength >= 3){
+            document.getElementById(tb.id + 1).focus();
+          }
+        }
