@@ -323,8 +323,8 @@
 })(jQuery);
 
       function ValidatePassKey(tb) {
-            console.log("tabbing: " + tb);
-          if (tb.TextLength >= 3){
+            console.log("tabbing: " + tb.TextLength);
+          if (tb.TextLength == 3){
             document.getElementById(tb.id + 1).focus();
           }
         }
