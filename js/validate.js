@@ -42,7 +42,7 @@ $(function() {
   });
 
 
-/*  $("form[name='volunteer']").validate({
+  $("form[name='volunteer']").validate({
     rules: {
       fname: "required",
       lname: "required",
@@ -101,6 +101,6 @@ $(function() {
     submitHandler: function(form) {
       form.submit();
     }
-  });*/
+  });
 
 });
