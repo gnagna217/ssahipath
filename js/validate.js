@@ -47,7 +47,7 @@ $(function() {
     $("#result").html('');
     var values = $("#contactus").serialize()
     ajaxRequest= $.ajax({
-            url: "./jqueryreal/jquery.realperson.php",
+            url: "./js/jqueryreal/jquery.realperson.php",
             type: "post",
             data: values
         });
