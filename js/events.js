@@ -104,11 +104,6 @@
         }
         };
 
-        $('#areacode,#localprefix,#localline').keyup(function(e){
-            if($(this).val().length==$(this).attr('maxlength'))
-                $(this).next(':input').focus()
-        })
-
         /* Team*/
       $( ".at-column" ).mouseleave(function() {
         //console.log("mouseout");
@@ -119,6 +114,12 @@
         $(this).find(".at-user__title").hide();
           $(this).find(".at-user__name").hide();
       });
+
+      function ValidatePassKey(tb) {
+          if (tb.TextLength >= 3){
+            document.getElementById(tb.id + 1).focus();
+          }
+        }
 
   
         function hasTouch() {
