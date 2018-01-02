@@ -104,6 +104,11 @@
         }
         };
 
+        $('#areacode,#localprefix,#localline').keyup(function(e){
+            if($(this).val().length==$(this).attr('maxlength'))
+                $(this).next(':input').focus()
+        })
+
         /* Team*/
       $( ".at-column" ).mouseleave(function() {
         //console.log("mouseout");
