@@ -34,10 +34,6 @@ $(function() {
       areacode: "Please enter the 3 digits area code",
       localprefix: "Please enter the next 3 digits of your phone number",
       localline: "Please enter the remaining 4 digits of your phone number",
-      password: {
-        required: "Please provide a password",
-        minlength: "Your password must be at least 5 characters long"
-      },
       email: "Please enter a valid email address"
     },
     submitHandler: function(form) {
@@ -69,23 +65,38 @@ $(function() {
         number: true,
         minlength: 4
       },
-       checkboxreason: {
+       checkboxdo: {
             required: true,
             minlength: 1
-          }
+          },
+       checkboxlanguage: {
+            required: true,
+            minlength: 1
+          },
+       checkboxshift: {
+            required: true,
+            minlength: 1
+          },
+          volunteernow: "required",
+          address: "required",
+          city: "required",
+          country: "required"
     },
     messages: {
-      checkboxreason: "Please select at least one reason of inquiry",
       fname: "Please enter your first name",
       lname: "Please enter your last name",
       areacode: "Please enter the 3 digits area code",
       localprefix: "Please enter the next 3 digits of your phone number",
       localline: "Please enter the remaining 4 digits of your phone number",
-      password: {
-        required: "Please provide a password",
-        minlength: "Your password must be at least 5 characters long"
-      },
-      email: "Please enter a valid email address"
+      email: "Please enter a valid email address",
+      address: "Please enter your address",
+      city: "Please enter your city of residence",
+      country: "Please enter your country of residence",
+      checkboxdo: "Please select at least one field",
+      checkboxlanguage: "Please select at least one language",
+      checkboxshift:"Please select at least one shift",
+      volunteernow: "Please answer the background-check question"
+
     },
     submitHandler: function(form) {
       form.submit();
