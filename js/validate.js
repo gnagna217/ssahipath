@@ -52,8 +52,9 @@ $(function() {
 
   function postForm() {
     var ajaxRequest;
-    $("#result").html('');
     var values = $("#contactus").serialize();
+    $("#result").html('here' + values);
+    
     console.debug(values);
     /*console.log();
     ajaxRequest= $.ajax({
