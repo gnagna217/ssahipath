@@ -42,10 +42,20 @@ $(function() {
     }
   });
 
+  function hash(value) {
+    var hash = 5381;
+    for (var i = 0; i < value.length; i++) {
+      hash = ((hash << 5) + hash) + value.charCodeAt(i);
+    }
+    return hash;
+  }
+
   function postForm() {
     var ajaxRequest;
     $("#result").html('');
-    var values = $("#contactus").serialize()
+    var values = $("#contactus").serialize();
+    console.debug(values);
+    /*console.log();
     ajaxRequest= $.ajax({
             url: "/js/test.php",
             type: "post",
@@ -56,12 +66,12 @@ $(function() {
           // show successfully for submit message
           $("#result").html(response);
      });
-
+*/
      /* On failure of request this function will be called  */
-     ajaxRequest.fail(function (){
+ /*    ajaxRequest.fail(function (){
        // show error
        $("#result").html('There was an error in processing the request. Please try again.');
-     });
+     });*/
   }
 
   $("form[name='volunteer']").validate({
