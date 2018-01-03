@@ -69,7 +69,7 @@ $(formdata ).each(function(index, obj){
     if(data.defaultRealHash == hash(data.defaultReal)){
       form.submit();
     } else {
-      $("#defaultReal").realperson('destroy')
+      $('#defaultReal').realperson();
       $("#result").html("The code you entered does not match. Please enter the code as displayed");
       $("#result").show();
     }
