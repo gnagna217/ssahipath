@@ -25,7 +25,8 @@ $(function() {
        checkboxreason: {
             required: true,
             minlength: 1
-          }
+          },
+       defaultReal: "required"
     },
     messages: {
       checkboxreason: "Please select at least one reason of inquiry",
@@ -34,11 +35,12 @@ $(function() {
       areacode: "Please enter the 3 digits area code",
       localprefix: "Please enter the next 3 digits of your phone number",
       localline: "Please enter the remaining 4 digits of your phone number",
-      email: "Please enter a valid email address"
+      email: "Please enter a valid email address",
+      defaultReal: "Please enter the code displayed above"
     },
     submitHandler: function(form) {
       //form.submit();
-      postForm();
+      postForm(form);
     }
   });
 
@@ -59,11 +61,17 @@ $(formdata ).each(function(index, obj){
     data[obj.name] = obj.value;
 });
 
-    $("#result").html('here' + data.defaultReal);
+    
     
     console.log("data.defaultReal: " + data.defaultReal);
     console.log("data.defaultRealHash: " + data.defaultRealHash);
     console.log("data.defaultReal hash: " + hash(data.defaultReal));
+    if(data.defaultRealHash == hash(data.defaultReal)){
+      form.submit();
+    } else {
+      $("#result").html("The code you entered does not match. Please enter the code as displayed");
+      $("#result").show();
+    }
     /*console.log();
     ajaxRequest= $.ajax({
             url: "/js/test.php",
@@ -121,7 +129,8 @@ $(formdata ).each(function(index, obj){
           volunteernow: "required",
           address: "required",
           city: "required",
-          country : "required"
+          country : "required",
+       defaultReal: "required"
     },
     messages: {
       fname: "Please enter your first name",
@@ -136,8 +145,8 @@ $(formdata ).each(function(index, obj){
       checkboxdo: "Please select at least one field",
       checkboxlanguage: "Please select at least one language",
       checkboxshift:"Please select at least one shift",
-      volunteernow: "Please answer the background-check question"
-
+      volunteernow: "Please answer the background-check question",
+      defaultReal: "Please enter the code displayed above"
     },
     submitHandler: function(form) {
       form.submit();
