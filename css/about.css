@@ -9031,7 +9031,16 @@ z-index: 20;
 text-align: center;
 z-index: 20;
 }
+.width75center{
+  width: 100%;
+  margin: initial;
+}
+
 @media (max-width: 440px) {
+.width75center{
+  width: 75%;
+  margin: 0 auto;
+}
 .subtitle{
 top: -170px !important;
 }
@@ -9089,8 +9098,6 @@ color: #fdce13;
   margin-bottom: 5px;
   position: inherit;
 }
-
-
 
 .error.active {
   padding: 0.3em;
