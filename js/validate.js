@@ -59,9 +59,9 @@ $(formdata ).each(function(index, obj){
     data[obj.name] = obj.value;
 });
 
-    $("#result").html('here' + data["defaultReal"]);
+    $("#result").html('here' + data[defaultReal]);
     
-    console.log(values);
+    console.log(data);
     /*console.log();
     ajaxRequest= $.ajax({
             url: "/js/test.php",
