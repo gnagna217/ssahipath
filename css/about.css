@@ -9068,6 +9068,8 @@ color: #fdce13;
 }
 
 /* This is the style of our error messages */
+
+}
 .error {
   width  : 100%;
   padding: 10px;
@@ -9079,6 +9081,13 @@ color: #fdce13;
   box-sizing: border-box;
   margin-bottom: 5px;
   position: inherit;
+}
+
+.formresult{
+  padding: 13px 0px;
+  margin: 40px 15px 0px;
+  font-size: 100%;
+  background-color: rgba(217, 183, 51, 0.62);
 }
 
 .error.active {
