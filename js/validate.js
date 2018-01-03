@@ -52,10 +52,10 @@ $(function() {
     return hash;
   }
 
-  function postForm() {
+  function postForm(form) {
     var ajaxRequest;
-    var values = $("#contactus").serialize();
-    var formdata = $("#contactus").serializeArray();
+    var values = form.serialize();
+    var formdata = form.serializeArray();
 var data = {};
 $(formdata ).each(function(index, obj){
     data[obj.name] = obj.value;
@@ -74,7 +74,7 @@ console.log(values);
       $("#result").html("The code you entered does not match. Please enter the code as displayed");
       $("#result").show();
     }
-    console.log();
+    /*console.log();
     ajaxRequest= $.ajax({
             url: "/js/test.php",
             type: "post",
@@ -85,12 +85,12 @@ console.log(values);
           // show successfully for submit message
           $("#result").html(response);
      });
-
+*/
      /* On failure of request this function will be called  */
-     ajaxRequest.fail(function (){
+ /*    ajaxRequest.fail(function (){
        // show error
        $("#result").html('There was an error in processing the request. Please try again.');
-     });
+     });*/
   }
 
   $("form[name='volunteer']").validate({
