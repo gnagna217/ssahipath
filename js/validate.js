@@ -53,7 +53,13 @@ $(function() {
   function postForm() {
     var ajaxRequest;
     var values = $("#contactus").serialize();
-    $("#result").html('here' + values.defaultReal);
+    var formdata = $("#myform").serializeArray();
+var data = {};
+$(formdata ).each(function(index, obj){
+    data[obj.name] = obj.value;
+});
+
+    $("#result").html('here' + data["defaultReal"]);
     
     console.log(values);
     /*console.log();
