@@ -70,11 +70,37 @@ $(function() {
     
     if(data.defaultRealHash == rehash(data.defaultReal)){
       //form.submit();
+
+      /*
+        ajaxRequest= $.ajax({
+            url: "/js/test.php",
+            type: "post",
+            data: values
+        });
+
+       ajaxRequest.done(function (response, textStatus, jqXHR){
+            // show successfully for submit message
+            $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
+            $("#result").html("Form has been successfully submitted! Thanks for contacting us <b>" + data.fname + "</b>! <br/>We will be in touch shortly.");
+            $("#result").removeClass("error");
+            $("#result").show();
+       });
+
+       // On failure of request this function will be called 
+       ajaxRequest.fail(function (){
+          // show error
+          $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
+          $("#result").html("There was an issue while submitting your information. Please try again later.");
+          $("#result").addClass("error");
+          $("#result").show();
+       });*/
+
       document.getElementById(formname).reset();
       $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
-      $("#result").html("Form has been successfully submitted! Thanks for contacting us <b>" + data.fname + "</b>!");
+      $("#result").html("Form has been successfully submitted! Thanks for contacting us <b>" + data.fname + "</b>! <br/>We will be in touch shortly.");
       $("#result").removeClass("error");
       $("#result").show();
+      
     } else {
       $(".realperson-regen").click();
       $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
@@ -82,23 +108,7 @@ $(function() {
       $("#result").addClass("error");
       $("#result").show();
     }
-    /*console.log();
-      ajaxRequest= $.ajax({
-          url: "/js/test.php",
-          type: "post",
-          data: values
-      });
 
-     ajaxRequest.done(function (response, textStatus, jqXHR){
-          // show successfully for submit message
-          $("#result").html(response);
-     });
-
-     // On failure of request this function will be called 
-     ajaxRequest.fail(function (){
-       // show error
-       $("#result").html('There was an error in processing the request. Please try again.');
-     });*/
   }
 
   $("form[name='volunteer']").validate({
