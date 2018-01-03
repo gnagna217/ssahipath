@@ -53,9 +53,9 @@ $(function() {
   function postForm() {
     var ajaxRequest;
     var values = $("#contactus").serialize();
-    $("#result").html('here' + values);
+    $("#result").html('here' + values.defaultReal);
     
-    console.debug(values);
+    console.log(values);
     /*console.log();
     ajaxRequest= $.ajax({
             url: "/js/test.php",
