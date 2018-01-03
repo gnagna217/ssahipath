@@ -13,9 +13,6 @@ font-weight: normal;
 font-style: normal;
 }
 
-body{
-      background-color: #6a5f32;
-}
 .subtitle{
 top: -125px !important;
 }
@@ -7479,6 +7476,7 @@ font-weight: 400;
 text-rendering: optimizeLegibility;
 color: #686868;
 background: transparent;
+background-color: #6a5f32;
 }
 body .page-heading {
 padding: 150px 0 6px;
