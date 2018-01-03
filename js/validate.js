@@ -61,6 +61,7 @@ $(formdata ).each(function(index, obj){
     data[obj.name] = obj.value;
 });
 
+console.log(values);
     
     
     console.log("data.defaultReal: " + data.defaultReal);
