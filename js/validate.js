@@ -40,7 +40,7 @@ $(function() {
     },
     submitHandler: function(form) {
       //form.submit();
-      postForm(form);
+      postForm();
     }
   });
 
@@ -52,10 +52,10 @@ $(function() {
     return hash;
   }
 
-  function postForm(form) {
+  function postForm() {
     var ajaxRequest;
-    var values = form.serialize();
-    var formdata = form.serializeArray();
+    var values = $("#contactus").serialize();
+    var formdata = $("#contactus").serializeArray();
 var data = {};
 $(formdata ).each(function(index, obj){
     data[obj.name] = obj.value;
