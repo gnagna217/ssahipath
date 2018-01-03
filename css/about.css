@@ -9072,9 +9072,9 @@ color: #fdce13;
 .formresult{
   padding: 13px 0px;
   margin: 40px 15px 0px;
-  font-size: 100%;
+  font-size: 100% !important;
   background-color: #328211;
-  border-radius: 10px;
+  border-radius: 5px !important;
 }
 
 .error {
