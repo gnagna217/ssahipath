@@ -72,7 +72,7 @@ $(function() {
       //form.submit();
       document.getElementById(formname).reset();
       $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
-      $("#result").html("Form has been successfully submitted! Thanks for contacting us!");
+      $("#result").html("Form has been successfully submitted! Thanks for contacting us <b>" + data.fname + "</b>!");
       $("#result").removeClass("error");
       $("#result").show();
     } else {
