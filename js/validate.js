@@ -73,6 +73,7 @@ $(function() {
       document.getElementById(formname).reset();
       $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
       $("#result").html("Form has been successfully submitted! Thanks for contacting us!");
+      $("#result").show();
     } else {
       $(".realperson-regen").click();
       $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
