@@ -159,7 +159,7 @@ $(function() {
     },
     submitHandler: function(form) {
       //form.submit();
-      postForm("contactus");
+      postForm("volunteer");
     }
   });
 
