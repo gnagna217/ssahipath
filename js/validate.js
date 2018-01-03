@@ -71,12 +71,12 @@ $(function() {
     if(data.defaultRealHash == rehash(data.defaultReal)){
       //form.submit();
       document.getElementById(formname).reset();
-      $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
+      $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
       $("#result").html("Form has been successfully submitted! Thanks for contacting us!");
       $("#result").show();
     } else {
       $(".realperson-regen").click();
-      $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
+      $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
       $("#result").html("The code you entered does not match. Please enter the code as displayed.");
       $("#result").show();
     }
