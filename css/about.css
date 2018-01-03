@@ -12,6 +12,10 @@ src: url("fonts/ic-icons/ic-icons.eot?#iefix-blek9x") format("embedded-opentype"
 font-weight: normal;
 font-style: normal;
 }
+
+body{
+      background-color: #6a5f32;
+}
 .subtitle{
 top: -125px !important;
 }
