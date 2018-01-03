@@ -78,6 +78,7 @@ $(function() {
       $(".realperson-regen").click();
       $(window).scrollTop($('#result').offset().top).scrollLeft($('#result').offset().left);
       $("#result").html("The code you entered does not match. Please enter the code as displayed.");
+      $("#result").addClass("error");
       $("#result").show();
     }
     /*console.log();
