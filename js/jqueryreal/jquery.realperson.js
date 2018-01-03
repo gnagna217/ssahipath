@@ -100,7 +100,7 @@
 		_regenerateClass: pluginName + '-regen',
 		_textClass: pluginName + '-text',
 
-		_optionsChanged: function(elem, inst, options) {
+		/*_optionsChanged: function(elem, inst, options) {
 			$.extend(inst.options, options);
 			var text = '';
 			for (var i = 0; i < inst.options.length; i++) {
@@ -126,7 +126,41 @@
 						elem.realperson('option', {});
 					}
 				});
-		},
+		},*/
+		
+		_optionsChanged: function(elem, inst, options) {
+			$.extend(inst.options, options);
+			var text = '';
+			for (var i = 0; i < inst.options.length; i++) {
+				text += inst.options.chars.charAt(Math.floor(Math.random() * inst.options.chars.length));
+			}
+			inst.hash = hash(text + salt);
+			var self = this;
+			console.log("form0 inst.name: " + inst.name);
+			console.log("form0 hash: " + inst.hash);
+			console.debug(elem);
+			elem.closest('form')/*.off('.' + inst.name)*/.
+				on('submit.' + inst.name, function() {
+					console.log("form0: " + self._hashClass );
+					var name = inst.options.hashName.replace(/\{n\}/, elem.attr('name'));
+					console.log("form0 name: " + name);
+					console.log("form0 text: " + text);
+					var form = $(this);
+					form.find('input[name="' + name + '"]').remove();
+					form.append('<input type="hidden" class="' + self._hashClass + '" name="' + name +
+						'" value="' + inst.hash + '">');
+					setTimeout(function() {
+						form.find('input[name="' + name + '"]').remove();
+					}, 0);
+				});
+			elem.prevAll('.' + this._challengeClass + ',.' + this._hashClass).remove().end().
+				before(this._generateHTML(inst, text)).
+				prevAll('div.' + this._challengeClass).click(function() {
+					if (!$(this).hasClass(self._disabledClass)) {
+						elem.realperson('option', {});
+					}
+				});
+		},		
 
 		/* Enable the plugin functionality for a control.
 		   @param elem {element} The control to affect. */

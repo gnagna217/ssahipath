@@ -40,54 +40,59 @@ $(function() {
     },
     submitHandler: function(form) {
       //form.submit();
-      postForm();
+      postForm("contactus");
     }
   });
 
-  function hash(value) {
+  function rehash(value) {
     var hash = 5381;
+    value = value.toUpperCase();
     for (var i = 0; i < value.length; i++) {
       hash = ((hash << 5) + hash) + value.charCodeAt(i);
     }
+    console.log("returned hash: " + hash);
     return hash;
   }
 
-  function postForm() {
+  function postForm(formname) {
     var ajaxRequest;
-    var values = $("#contactus").serialize();
-    var formdata = $("#contactus").serializeArray();
-var data = {};
-$(formdata ).each(function(index, obj){
-    data[obj.name] = obj.value;
-});
+    var values = $("#" + formname).serialize();
+    var formdata = $("#" + formname).serializeArray();
+    var data = {};
+    $(formdata ).each(function(index, obj){
+        data[obj.name] = obj.value;
+    });
 
-console.log(values);
-    
-    
+    console.log(values);
     console.log("data.defaultReal: " + data.defaultReal);
     console.log("data.defaultRealHash: " + data.defaultRealHash);
-    console.log("data.defaultReal hash: " + hash(data.defaultReal));
-    if(data.defaultRealHash == hash(data.defaultReal)){
-      form.submit();
+    console.log("data.defaultReal hash: " + rehash(data.defaultReal));
+    
+    if(data.defaultRealHash == rehash(data.defaultReal)){
+      //form.submit();
+      document.getElementById(formname).reset();
+      $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
+      $("#result").html("Form has been successfully submitted! Thanks for contacting us!");
     } else {
       $(".realperson-regen").click();
-      $("#result").html("The code you entered does not match. Please enter the code as displayed");
+      $(window).scrollTop($('#result').offset().top - 300).scrollLeft($('#result').offset().left);
+      $("#result").html("The code you entered does not match. Please enter the code as displayed.");
       $("#result").show();
     }
     /*console.log();
-    ajaxRequest= $.ajax({
-            url: "/js/test.php",
-            type: "post",
-            data: values
-        });
+      ajaxRequest= $.ajax({
+          url: "/js/test.php",
+          type: "post",
+          data: values
+      });
 
      ajaxRequest.done(function (response, textStatus, jqXHR){
           // show successfully for submit message
           $("#result").html(response);
      });
-*/
-     /* On failure of request this function will be called  */
- /*    ajaxRequest.fail(function (){
+
+     // On failure of request this function will be called 
+     ajaxRequest.fail(function (){
        // show error
        $("#result").html('There was an error in processing the request. Please try again.');
      });*/
@@ -151,7 +156,8 @@ console.log(values);
       defaultReal: "Please enter the code displayed above"
     },
     submitHandler: function(form) {
-      form.submit();
+      //form.submit();
+      postForm("contactus");
     }
   });
 
