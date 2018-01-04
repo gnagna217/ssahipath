@@ -462,6 +462,19 @@ float: left;
 .corevalues:hover{
 background-color: #a79655;
 }
+.corevalues50{
+/*border-radius: 50%;background-color: #7b6f3cfc; padding: 6%; width: 30% !important;cursor:pointer;padding-bottom: 3%;float: left;*/
+border-radius: 30%;
+background-color: #7b6f3cfc;
+padding: 4%;
+width: 47.5% !important;
+cursor: pointer;
+padding-bottom: 0;
+float: left;
+}
+.corevalues50:hover{
+background-color: #a79655;
+}
 .corevaluesactive{
 background-color: #a79655;
 }
@@ -9039,8 +9052,17 @@ z-index: 20;
   margin: 0 auto;
 }
 
+.width85center{
+  width: 85%;
+  margin: 0 auto;
+}
+
 @media (max-width: 440px) {
 .width75center{
+  width: 100%;
+  margin: initial;
+}
+.width85center{
   width: 100%;
   margin: initial;
 }
