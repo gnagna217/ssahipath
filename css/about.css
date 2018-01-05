@@ -9061,6 +9061,10 @@ z-index: 20;
   margin-left: 0px; margin-right: 0px;
 }
 
+.delayanim{
+  animation-duration: 2s !important; animation-delay: 2s;
+}
+
 @media (max-width: 440px) {
 .margintopdesktop100{
   margin-top: 20px;
