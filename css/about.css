@@ -9056,8 +9056,15 @@ z-index: 20;
   width: 85%;
   margin: 0 auto;
 }
+.margintopdesktop100{
+  margin-top: 100px;
+  margin-left: 0px; margin-right: 0px;
+}
 
 @media (max-width: 440px) {
+.margintopdesktop100{
+  margin-top: 20px;
+}
 .width75center{
   width: 100%;
   margin: initial;
