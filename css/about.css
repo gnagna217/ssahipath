@@ -613,10 +613,10 @@ color: #887b42;
 font-style: italic;
 }
 .focusleft{
-width:40%;float:left;margin-left:5%;margin-right:5%;text-align:left;background: #352f2f94; padding: 17px; margin-bottom: 25px;
+width:40%;float:left;margin-left:5%;margin-right:5%;text-align:left;background: #352f2fb5; padding: 17px; margin-bottom: 25px;
 }
 .focusright{
-width:40%;float:right;margin-right:5%;text-align:left;background: #352f2f94; padding: 17px; margin-bottom: 25px;
+width:40%;float:right;margin-right:5%;text-align:left;background: #352f2fb5; padding: 17px; margin-bottom: 25px;
 }
 .menubutton:hover, .hamburger:hover{
 color: #e37162 !important;
