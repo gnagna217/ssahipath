@@ -13,6 +13,9 @@ font-weight: normal;
 font-style: normal;
 }
 
+.nouppercase{
+  text-transform: none !important;
+}
 .subtitle{
 top: -125px !important;
 }
