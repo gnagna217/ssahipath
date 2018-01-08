@@ -162,7 +162,7 @@ $(function() {
       address: "Please enter your address",
       city: "Please enter your city of residence",
       country: "Please enter your country of residence",
-      checkboxdo: "Please select at least one field",
+      checkboxdo: "Please select at least one role",
       checkboxlanguage: "Please select at least one language",
       checkboxshift:"Please select at least one shift",
       volunteernow: "Please answer the background-check question",

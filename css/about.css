@@ -12,6 +12,49 @@ src: url("fonts/ic-icons/ic-icons.eot?#iefix-blek9x") format("embedded-opentype"
 font-weight: normal;
 font-style: normal;
 }
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top:hover {
+    color: #2a74b4 !important;
+}
+@media only screen and (min-width: 1024px){
+.cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+}
+}
+@media only screen and (min-width: 768px){
+.cd-top {
+    right: 20px;
+    bottom: 20px;
+}
+}
+.cd-top {
+    display: none;
+    height: 40px;
+    width: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 10;
+    font-size: 25pt;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);*/
+    overflow: hidden;
+    color:#3d9dcb96;
+    /*text-indent: 100%;*/
+    white-space: nowrap;
+    /*background: rgb(173, 152, 118) url(/images/cd-top-arrow.svg) no-repeat center 50%;*/
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
 
 .nouppercase{
   text-transform: none !important;
@@ -498,7 +541,7 @@ border-color: #5d542f;
 margin: 0.5%;
 width: 32.333% !important;
 font-size: 14px;
-background: #352f2f94;
+background: #352f2fc7;
 float: left;
 border:none;
 }
@@ -512,7 +555,7 @@ border-color: #5d542f;
 margin: 0.5%;
 width: 49% !important;
 font-size:14px;
-background: #352f2f94;
+background: #352f2fc7;
 float:left;
 border: none;
 }
@@ -526,7 +569,7 @@ border-color: #5d542f;
 margin: 0.5%;
 width: 100% !important;
 font-size:14px;
-background: #352f2f94;
+background: #352f2fc7;
 float:left;
 border: none;
 }
@@ -6670,7 +6713,7 @@ border-radius: 4px;
 background: #897c42;
 color: #FFF;
 padding: 15px 15px 13px;
-text-transform: uppercase;
+text-transform: none;
 height: 100%;
 filter: none;
 }
@@ -6731,9 +6774,10 @@ font-size: 16px;
 color: #FFF;
 background: none;
 border: none;
-text-transform: uppercase;
+text-transform: none;
 overflow: hidden;
 margin-right: -1px;
+font-size: 12px;
 }
 .select2-drop .ps-scrollbar-x-rail {
 z-index: 10000;
@@ -6765,18 +6809,19 @@ margin-top: 0;
 margin: 0;
 padding: 0;
 max-height: 200px;
-overflow: hidden;
+overflow: auto;
 }
 .select2-drop .select2-results .select2-result {
-min-height: 50px;
-padding: 15px 15px 13px;
-line-height: 1;
+min-height: 20px;
+padding: 5px 5px;
+    /* line-height: 1; */
 cursor: pointer;
-background-color: #897c42;
+background-color: white;
+color: #897c42;
 }
 .select2-drop .select2-results .select2-result.select2-highlighted {
-background: #FFF;
-color: #897c42;
+    background: #897c42;
+    color: #efefef;
 }
 .select2-drop .select2-results .select2-result .select2-result-label {
 padding-left: 0;
@@ -7885,9 +7930,10 @@ background: rgba(136, 123, 66, 0.82);
 }
 #fixed-buttons #fixed-donate span {
 margin-right: 20px;
-color: #E93C54;
 top: 2px;
 position: relative;
+    text-transform: none;
+    font-size: 13px;
 }
 .open #fixed-buttons {
 right: -200px;
@@ -9141,4 +9187,332 @@ color: #fdce13;
 
 .error.active {
   padding: 0.3em;
+}
+
+.font20{
+    font-size: 20pt !important;
+}
+
+.header-size{
+    width: 165px !important;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.subheader-background{
+    background-color: #1715157a;
+}
+.row-values{
+    margin-left: 0px; margin-right: 0px;width: 90%; margin: 0 auto;
+}
+
+.margin-left5{
+    margin-left: 5% !important;
+}
+
+.home-background{
+    background-image: url(../images/ssa_focus.jpeg); 
+    background-size: cover; 
+    color: white;
+    background-attachment: fixed; 
+    background-position: top; 
+    background-repeat: no-repeat; 
+    min-height: 100%;
+}
+
+.aboutus-background{
+    background-image: url(../images/ssa_headlab.jpg) !important;
+    background-attachment: fixed; 
+    background-position: top; 
+    background-repeat: no-repeat !important; 
+    background-size: cover !important; 
+    min-height: 100%;
+}
+
+.aboutus-section-background{
+    background-image: url(../images/ssa_headlab.jpg) !important;
+    background-attachment: fixed; 
+    background-position: top !important; 
+    background-repeat: no-repeat; 
+    background-size: cover; min-height: 100%;
+}
+
+.services-background{
+    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: fixed; 
+    background-position: top !important; background-repeat: no-repeat; 
+    background-size: cover; min-height: 100%;
+}
+
+.advocate-first-background{
+    background: #352f2f94;padding: 10px;float: left;margin-bottom:15px;
+}
+.home-header{
+    color: white !important; background: #352f2fb5; padding: 25px;
+}
+
+.button-service{
+    clear: both;margin-bottom: 25px;
+}
+
+.home-quote{
+    text-align: center !important;
+    border: none;
+    padding: 1px !important;
+    border-color: transparent !important;
+    background: linear-gradient( to right, #6b6032, transparent, transparent, transparent, #6b6032 ) !important;
+}
+
+.home-margin30{
+    margin-bottom: 30px !important;
+}
+
+.email-background{
+    background: #665c33fc;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg); background-size: cover; color: white;;background-attachment: fixed; background-position: top; background-repeat: no-repeat; min-height: 100%;
+}
+
+.section-footer{
+    background: #6b6032;padding: 10px 0;
+}
+
+.width100{
+    width:100% !important;
+}
+
+.aboutus-subheader{
+    padding: 20px;display: block;
+}
+
+.aboutus-subheader1{
+    background: #352f2f94; padding: 10px; margin: 20px;
+}
+
+.min-width50{
+    min-width: 50% !important;
+}
+
+.nopadding-top{
+    padding-top: 0px;
+}
+
+.hema-background{
+    background-image: url(../images/ssa_hemato.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.bio-background{
+    background-image: url(../images/ssa_immunology.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.micro-background{
+    background-image: url(../images/ssa_microbiology.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.ana-background{
+    background-image: url(../images/ssa_anatomic-pathology.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.prevent-background{
+    background-image: url(../images/ssa_community.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.health-background{
+    background-image: url(../images/ssa_healthscreen.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.diagnostic-background{
+    background-image: url(../images/ssa_diagnostic.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.digital-background{
+    background-image: url(../images/ssa_digital_pathology.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.biorepo-background{
+    background-image: url(../images/ssa_biorepo.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
+}
+
+.margintop25{
+    margin-top: 25px !important;
+}
+
+.marginbottom25{
+    margin-bottom: 25px !important;
+}
+.service-background{
+    background-color: #615c5cc4; padding: 5px; margin: 10px auto; 
+}
+
+.volunteer-background{
+    background-image: url(../images/ssa_volunteer.jpeg) !important;background-attachment: fixed; 
+    background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+}
+
+.phone-label{
+    float: left; margin-right: 15px;color: #dab833;
+}
+
+.phone1{
+    width: 60px;float:left;
+}
+
+.phone2{
+    width: 70px;float:left;
+}
+
+.volunteer-container{
+    margin: 25px auto;
+}
+
+.volunteer-feedback{
+    width:100%;height:150px;
+}
+
+.volunteer-submit{
+    bottom: -42px;position: relative;margin-bottom: 50px;
+}
+
+.contactus-submit{
+    bottom: -42px;position: relative;
+}
+
+.volunteer-container-title{
+    text-align:left;margin-bottom:10px;font-weight:500;color: #dab833;
+}
+
+.team-background{
+    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+}
+
+.team-section-background{
+    padding-bottom: 165px;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+}
+
+.contactus-background{
+    background-image: url(../images/ssa_contactus.jpg)!important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+}
+.marginleft15{
+    margin-left:15px !important;
+}
+.font80{
+    font-size: 80% !important;
+}
+.contactus-feedback{
+    text-align:left;font-size: 11px !important;
+}
+.contactus-location{
+    text-align: left;margin-left: 8%;
+}
+.contactus-detail{
+    font-size: 45pt !important;color: #d9b733;
+}
+.contactus-detail2{
+    left: 25px;position: relative;top: -45px;overflow-wrap: break-word;padding-left: 42px;
+}
+.contactus-detail-email{
+    left: 25px;position: relative;top: -33px;overflow-wrap: break-word;padding-left: 42px;
+}
+.marginbottom15{
+    margin-bottom: 15px !important;
+}
+.font39{
+    font-size: 39pt !important;
+}
+.service-ana-background{
+    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+}
+.nomarginleftright{
+    margin-left: 0px !important; margin-right: 0px !important;
+}
+.margintop50{
+    margin-top:50px !important;
+}
+.marginleft5{
+    margin-left: 5% !important;
+}
+.topbelow12{
+    top: -12px;
+}
+.service-email-background{
+    background: #665c33fc !important; color: white;padding-bottom: 10px !important;
+}
+.textalignleft{
+    text-align: left !important;
+}
+
+.biochem-background{
+    background-image: url(../images/ssa_immunology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+
+.biorepo-service-background{
+    padding-top: 0px;background-image: url(../images/ssa_biobank.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+
+.biorepo-service-background2{
+    background-image: url(../images/ssa_biorepo.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.comingsoon-margin{
+    padding: 500px 0px 130px;
+}
+
+.comingsoon-background{
+    background-color: #1715157a;
+}
+.community-background{
+    background-image: url(../images/ssa_community.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.community-section-background{
+    padding-top: 0px;background-image: url(../images/ssa_community.jpeg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+
+.diagno-background{
+    background-image: url(../images/ssa_diagnostic.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+
+.diagno-sectioin-background{
+    background-image: url(../images/ssa_diagnostic_second.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+
+.health-service-background{
+    background-image: url(../images/ssa_healthscreen.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.hema-service-background{
+    background-image: url(../images/ssa_hemato.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.hema-disorder{
+    display: -webkit-box;margin-left: 0px; margin-right: 0px;
+}
+.margintop30{
+    margin-top: 30px !important;
+}
+.font15{
+    font-size:15px !important;
+}
+.top50center{
+    text-align:center !important;margin-top: 50px!important;
+}
+.microbio-background{
+    background-image: url(../images/ssa_microbiology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.preventive-service-background{
+    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.noleftrightmargin{
+    margin-left: 0px !important; margin-right: 0px !important;
+}
+.tele-service-background{
+    background-image: url(../images/ssa_digital_pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.tele-section-background{
+    padding-top: 0px;background-image: url(../images/ssa_digital_pathology_second.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.tele-subheader{
+    color: white !important; background: #352f2f94 !important; padding: 25px !important;
+}
+.tele-list{
+     background-color: #615c5cc4 !important; padding: 5px !important; margin: 10px auto !important;
 }
