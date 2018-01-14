@@ -142,6 +142,10 @@ $(function() {
             required: true,
             minlength: 1
           },
+       checkboxavail: {
+            required: true,
+            maxlength: 1
+          },
        checkboxshift: {
             required: true,
             minlength: 1
