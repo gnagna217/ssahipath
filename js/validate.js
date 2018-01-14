@@ -169,7 +169,7 @@ $(function() {
       checkboxdo: "Please select at least one role",
       checkboxlanguage: "Please select at least one language",
       checkboxshift:"Please select at least one shift",
-      checkboxavail:"Please select One availability",
+      checkboxavail:"Please select one availability only",
       volunteernow: "Please answer the background-check question",
       defaultReal: "Please enter the code displayed above"
     },
