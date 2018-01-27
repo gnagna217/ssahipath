@@ -74,7 +74,7 @@ display: -webkit-box;
 margin-bottom: 25px;
 }
 .bg-home{
-background-image: url(../images/ssa_hope_mobile.png) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+background-image: url(../images/ssa_hope_mobile.png) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .headerbackground{
 background: #887b425e;
@@ -9031,7 +9031,7 @@ color: #fdce13;
     background-image: url(../images/ssa_focus.jpeg); 
     background-size: cover; 
     color: white;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
     background-position: top; 
     background-repeat: no-repeat; 
     min-height: 100%;
@@ -9039,7 +9039,7 @@ color: #fdce13;
 
 .aboutus-background{
     background-image: url(../images/ssa_headlab.jpg) !important;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
     background-position: top; 
     background-repeat: no-repeat !important; 
     background-size: cover !important; 
@@ -9048,14 +9048,14 @@ color: #fdce13;
 
 .aboutus-section-background{
     background-image: url(../images/ssa_headlab.jpg) !important;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
     background-position: top !important; 
     background-repeat: no-repeat; 
     background-size: cover; min-height: 100%;
 }
 
 .services-background{
-    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: fixed; 
+    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: scroll; 
     background-position: top !important; background-repeat: no-repeat; 
     background-size: cover; min-height: 100%;
 }
@@ -9084,7 +9084,7 @@ color: #fdce13;
 }
 
 .email-background{
-    background: #665c33fc;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg); background-size: cover; color: white;;background-attachment: fixed; background-position: top; background-repeat: no-repeat; min-height: 100%;
+    background: #665c33fc;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg); background-size: cover; color: white;;background-attachment: scroll; background-position: top; background-repeat: no-repeat; min-height: 100%;
 }
 
 .section-footer{
@@ -9159,7 +9159,7 @@ color: #fdce13;
 }
 
 .volunteer-background{
-    background-image: url(../images/ssa_volunteer.jpeg) !important;background-attachment: fixed; 
+    background-image: url(../images/ssa_volunteer.jpeg) !important;background-attachment: scroll; 
     background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
 }
 
@@ -9196,15 +9196,15 @@ color: #fdce13;
 }
 
 .team-background{
-    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
 }
 
 .team-section-background{
-    padding-bottom: 165px;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+    padding-bottom: 165px;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: scroll; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
 }
 
 .contactus-background{
-    background-image: url(../images/ssa_contactus.jpg)!important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+    background-image: url(../images/ssa_contactus.jpg)!important;background-attachment: scroll; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
 }
 .marginleft15{
     margin-left:15px !important;
@@ -9234,7 +9234,7 @@ color: #fdce13;
     font-size: 39pt !important;
 }
 .service-ana-background{
-    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
+    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100%;
 }
 .nomarginleftright{
     margin-left: 0px !important; margin-right: 0px !important;
@@ -9256,15 +9256,15 @@ color: #fdce13;
 }
 
 .biochem-background{
-    background-image: url(../images/ssa_immunology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_immunology.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 
 .biorepo-service-background{
-    padding-top: 0px;background-image: url(../images/ssa_biobank.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    padding-top: 0px;background-image: url(../images/ssa_biobank.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 
 .biorepo-service-background2{
-    background-image: url(../images/ssa_biorepo.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_biorepo.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .comingsoon-margin{
     padding: 500px 0px 130px;
@@ -9274,25 +9274,25 @@ color: #fdce13;
     background-color: #1715157a;
 }
 .community-background{
-    background-image: url(../images/ssa_community.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_community.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .community-section-background{
-    padding-top: 0px;background-image: url(../images/ssa_community.jpeg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    padding-top: 0px;background-image: url(../images/ssa_community.jpeg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 
 .diagno-background{
-    background-image: url(../images/ssa_diagnostic.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_diagnostic.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 
 .diagno-sectioin-background{
-    background-image: url(../images/ssa_diagnostic_second.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_diagnostic_second.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 
 .health-service-background{
-    background-image: url(../images/ssa_healthscreen.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_healthscreen.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .hema-service-background{
-    background-image: url(../images/ssa_hemato.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_hemato.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .hema-disorder{
     display: -webkit-box;margin-left: 0px; margin-right: 0px;
@@ -9307,19 +9307,19 @@ color: #fdce13;
     text-align:center !important;margin-top: 50px!important;
 }
 .microbio-background{
-    background-image: url(../images/ssa_microbiology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_microbiology.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .preventive-service-background{
-    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .noleftrightmargin{
     margin-left: 0px !important; margin-right: 0px !important;
 }
 .tele-service-background{
-    background-image: url(../images/ssa_digital_pathology.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_digital_pathology.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .tele-section-background{
-    padding-top: 0px;background-image: url(../images/ssa_digital_pathology_second.jpg) !important;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    padding-top: 0px;background-image: url(../images/ssa_digital_pathology_second.jpg) !important;background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .tele-subheader{
     color: white !important; background: #352f2f94 !important; padding: 25px !important;
