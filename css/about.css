@@ -5996,7 +5996,7 @@ font-size: 22px;
 margin-top: 20px;
 }
 .header.large {
-font-size: 43px;
+font-size: 45px;
 }
 .header.large .subheader {
 font-size: 22px;
@@ -8994,7 +8994,7 @@ color: #fdce13;
 
 .subheader-background{
     background-color: #171515;
-        background-color: rgba(23, 21, 21, 0.47843137254901963); 
+        background-color: rgba(23, 21, 21, 0.66); 
 }
 .row-values{
     margin-left: 0px; margin-right: 0px;width: 90%; margin: 0 auto;
