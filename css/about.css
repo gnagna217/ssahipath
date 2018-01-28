@@ -9090,6 +9090,10 @@ color: #fdce13;
     padding-top: 0px;
 }
 
+.services-micro{
+    background-image: url(../images/ssa_microbiology.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+
 .hema-background{
     background-image: url(../images/ssa_hemato.jpg);background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;margin:auto 4%;
 }
@@ -9390,4 +9394,65 @@ color: #fdce13;
 }
 .contact-util{
     text-align: left;margin-left: 8%;padding-top: 10%;
+}
+.service-dig{
+    background-color: #615c5c !important; background-color: rgba(97, 92, 92, 0.7686274509803922) !important; padding: 5px !important; margin: 10px auto !important;  
+}
+.minwidth-50{
+    min-width: 50% !important;
+}
+.services-background{
+    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+}
+.services-hema{
+    background-image: url(./.images/ssa_hemato.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-hema-text{
+     background-color: #615c5c !important; background-color: rgba(97, 92, 92, 0.7686274509803922) !important; padding: 5px !important; margin: 10px auto !important; 
+}
+.services-bio{
+    background-image: url(../images/ssa_immunology.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-bio-text{
+     background-color: #615c5c !important; background-color: rgba(97, 92, 92, 0.7686274509803922) !important; padding: 5px !important; margin: 10px auto !important; 
+}
+
+.margintop-25{
+    margin-top: 25px;
+}
+.services-email{
+    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+}
+.services-ana{
+    background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-prev{
+    background-image: url(../images/ssa_community.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-health{
+    background-image: url(../images/ssa_healthscreen.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-diag{
+    background-image: url(../images/ssa_diagnostic.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-path{
+    background-image: url(../images/ssa_digital_pathology.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.services-bio{
+    background-image: url(../images/ssa_biorepo.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+}
+.team-background{
+    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+}
+.team-background-one{
+    padding-bottom: 165px !important;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+}
+.volunteer-background{
+    background-image: url(../images/ssa_volunteer.jpeg)!important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important; 
+}
+.team-feedback{
+    width:100% !important;height:150px !important;
+}
+.volunteer-submit{
+    bottom: -42px !important;position: relative !important;margin-bottom: 50px !important;
 }
