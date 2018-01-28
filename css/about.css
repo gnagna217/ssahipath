@@ -9311,13 +9311,13 @@ color: #fdce13;
     display:none;
 }
 .contact-building{
-    font-size: 45pt;color: #d9b733;
+    font-size: 45pt !important;color: #d9b733;
 }
 .contact-building-text{
     left: 25px;position: relative;top: -45px;overflow-wrap: break-word;padding-left: 42px;
 }
 .contact-clock{
-    font-size: 45pt;color: #d9b733;
+    font-size: 45pt !important;color: #d9b733;
 }
 .contact-clock-text{
     left: 25px;position: relative;top: -45px;overflow-wrap: break-word;padding-left: 42px;
@@ -9332,7 +9332,7 @@ color: #fdce13;
     left: 25px;position: relative;top: -33px;overflow-wrap: break-word;padding-left: 42px;
 }
 .contact-background{
-    background: #665c33fc; color: white;padding-bottom: 10px;background-image: url(../images/ssa_keepintouch.jpg); background-size: cover; color: white;;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important; background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; min-height: 100% !important;
 }
 .contact-footer{
     background: #6b6032;padding: 10px 0;
