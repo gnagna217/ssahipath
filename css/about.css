@@ -9230,6 +9230,7 @@ color: #fdce13;
 .service-email-background{
     background: #665c33 !important; background-color: rgba(102, 92, 51, 0.9882352941176471); color: white;padding-bottom: 10px !important;
 }
+
 .textalignleft{
     text-align: left !important;
 }
@@ -9305,4 +9306,88 @@ color: #fdce13;
 }
 .tele-list{
      background-color: #615c5c !important; padding: 5px !important; margin: 10px auto !important; background-color: rgba(97, 92, 92, 0.7686274509803922); 
+}
+.displaynone{
+    display:none;
+}
+.contact-building{
+    font-size: 45pt;color: #d9b733;
+}
+.contact-building-text{
+    left: 25px;position: relative;top: -45px;overflow-wrap: break-word;padding-left: 42px;
+}
+.contact-clock{
+    font-size: 45pt;color: #d9b733;
+}
+.contact-clock-text{
+    left: 25px;position: relative;top: -45px;overflow-wrap: break-word;padding-left: 42px;
+}
+.marginbottom-15{
+    margin-bottom: 15px;
+}
+.font-39{
+    font-size: 39pt;
+}
+.contact-email{
+    left: 25px;position: relative;top: -33px;overflow-wrap: break-word;padding-left: 42px;
+}
+.contact-background{
+    background: #665c33fc; color: white;padding-bottom: 10px;background-image: url(../images/ssa_keepintouch.jpg); background-size: cover; color: white;;background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.contact-footer{
+    background: #6b6032;padding: 10px 0;
+}
+.float-right{
+    float: right;
+}
+.font-20{
+    font-size: 20pt;
+}
+.width-165{
+    width: 165px;
+}
+.float-left{
+    float:left;
+}
+.contact-background{
+    background-image: url(../images/ssa_contactus.jpg);background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+}
+.font-80{
+    font-size: 80%;
+}
+.paddingtop-0{
+    padding-top: 0px;
+}
+.marginbottom-25{
+    margin-bottom:25px;
+}
+.contact-phone{
+    float: left; margin-right: 15px;color: #dab833;
+}
+.contact-phone-form{
+    width: 60px;float:left;
+}
+.contact-phone-prefix{
+    width: 60px;float:left; margin-left:15px;
+}
+.contact-phone-line{
+    width: 70px;float:left;margin-left:15px;
+}
+.margin-25{
+    margin: 25px auto;
+}
+.contact-reason{
+    text-align:left;margin-bottom:10px;font-weight:500;color: #dab833;
+}
+.contact-feedback{
+    text-align:left;font-size: 11px;
+}
+.contact-phone-help{
+    width:100%;height:150px;
+}
+.contact-submit{
+    bottom: -42px;position: relative;
+}
+.contact-util{
+    text-align: left;margin-left: 8%;padding-top: 10%;
 }
