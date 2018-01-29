@@ -9405,7 +9405,7 @@ color: #fdce13;
     background-image: url(../images/ssa_services.jpeg) !important;background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
 }
 .services-hema{
-    background-image: url(./.images/ssa_hemato.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
+    background-image: url(../images/ssa_hemato.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
 }
 .services-hema-text{
      background-color: #615c5c !important; background-color: rgba(97, 92, 92, 0.7686274509803922) !important; padding: 5px !important; margin: 10px auto !important; 
