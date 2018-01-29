@@ -9336,7 +9336,7 @@ color: #fdce13;
     left: 25px;position: relative;top: -33px;overflow-wrap: break-word;padding-left: 42px;
 }
 .contact-background{
-    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important; background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; min-height: 100% !important;
+    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important; background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; min-height: 100% !important;
 }
 .contact-footer{
     background: #6b6032;padding: 10px 0;
@@ -9348,13 +9348,13 @@ color: #fdce13;
     font-size: 20pt;
 }
 .width-165{
-    width: 165px;
+    width: 165px !important;
 }
 .float-left{
     float:left;
 }
 .contact-background{
-    background-image: url(../images/ssa_contactus.jpg);background-attachment: fixed; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
+    background-image: url(../images/ssa_contactus.jpg);background-attachment: scroll; background-position: top; background-repeat: no-repeat; background-size: cover; min-height: 100%;
 }
 .font-80{
     font-size: 80%;
@@ -9402,7 +9402,7 @@ color: #fdce13;
     min-width: 50% !important;
 }
 .services-background{
-    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+    background-image: url(../images/ssa_services.jpeg) !important;background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
 }
 .services-hema{
     background-image: url(./.images/ssa_hemato.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
@@ -9421,7 +9421,7 @@ color: #fdce13;
     margin-top: 25px;
 }
 .services-email{
-    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+    background: #665c33fc !important; color: white !important;padding-bottom: 10px !important;background-image: url(../images/ssa_keepintouch.jpg) !important; background-size: cover !important;background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
 }
 .services-ana{
     background-image: url(../images/ssa_anatomic-pathology.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
@@ -9442,13 +9442,13 @@ color: #fdce13;
     background-image: url(../images/ssa_biorepo.jpg) !important;background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;margin:auto 4% !important;
 }
 .team-background{
-    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+    background-image: url(../images/ssa_team2.jpg) !important;background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
 }
 .team-background-one{
-    padding-bottom: 165px !important;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
+    padding-bottom: 165px !important;background-image: url(../images/ssa_team2.jpg) !important; background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important;
 }
 .volunteer-background{
-    background-image: url(../images/ssa_volunteer.jpeg)!important;background-attachment: fixed !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important; 
+    background-image: url(../images/ssa_volunteer.jpeg)!important;background-attachment: scroll !important; background-position: top !important; background-repeat: no-repeat !important; background-size: cover !important; min-height: 100% !important; 
 }
 .team-feedback{
     width:100% !important;height:150px !important;
