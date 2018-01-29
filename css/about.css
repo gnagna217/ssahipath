@@ -9345,7 +9345,7 @@ color: #fdce13;
     float: right;
 }
 .font-20{
-    font-size: 20pt;
+    font-size: 20pt !important;
 }
 .width-165{
     width: 165px !important;
